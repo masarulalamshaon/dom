@@ -33,3 +33,14 @@ redButton.addEventListener('click',function makered(){
 document.getElementById('make-goldenRod').addEventListener('click',function(){
     document.body.style.backgroundColor ='goldenrod';
 })
+
+//inner text change
+function handleOnClick(){
+    const handlerStatus = document.getElementById('handler-status');
+    handlerStatus.innerText = 'i can change it wow';
+}
+
+document.getElementById('event-listner').addEventListener('click',function(){
+    const handlerStatus =document.getElementById('handler-status');
+    handlerStatus.innerText =' change by addEventListener'; 
+})
